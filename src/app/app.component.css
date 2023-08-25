@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+.menu-item, .special-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.menu-item img, .special-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: #FFA500;
+}
+
+button {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00;
+}
+
+.pizza-image {
+    background-image: url('https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg'); 
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.pizza-dos {
+    background-image: url('https://comidasperuanas.net/wp-content/uploads/2023/08/Receta-de-Pizza-Americana.jpg'); 
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.pizza-tres {
+    background-image: url('https://pe.littlecaesars.com/static/1605294112-cuatropizzabanner.png'); 
+    background-size: 190%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.pizza-especial {
+    background-image: url('https://dcdn.mitiendanube.com/stores/001/267/330/products/especial1-121dd8b75220fdba5815944995286617-1024-1024.png'); 
+    background-size: 190%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
